@@ -1,0 +1,407 @@
+ * {font-family: Arial, Helvetica, sans-serif;}
+
+ body
+  {background:rgb(185, 174, 248);
+  }
+  .header{
+    width: 1330px;
+    height: 40px;
+    background:linear-gradient(#427900,#316DC3);
+    display:inline-block;
+  }
+  /* .buttons {
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid transparent;
+  } */
+  .button1{ 
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid transparent;
+    position: absolute;
+    top: 16px;
+    left: 1010px;
+  }
+  .button2{ 
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid transparent;
+    position: absolute;
+    top: 16px;
+    left: 1098px;
+  }
+  .button3{ 
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid transparent;
+    position: absolute;
+    top: 16px;
+    left: 1200px;
+  }
+  .facebook{ 
+    cursor: pointer;
+    position: absolute;
+    top: 13px;
+    left: 50px;
+  }
+  .twitter{ 
+    cursor: pointer;
+    position: absolute;
+    top: 13px;
+    left: 100px;
+  }
+  .instagram{ 
+    cursor: pointer;
+    position: absolute;
+    top: 13px;
+    left: 150px;
+  }
+  .utube{ 
+    cursor: pointer;
+    position: absolute;
+    top: 13px;
+    left: 200px;
+  }
+  .whatsapp{ 
+    cursor: pointer;
+    position: absolute;
+    top: 13px;
+    left: 250px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color : white; */
+    background-color :rgb(185, 174, 248)
+  }
+      li {
+        float: left;
+      }
+      
+      li a, .dropbtn {
+        display: inline-block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover, .dropdown:hover .dropbtn {
+        background-color:#316DC3;
+      }
+      
+      li.dropdown {
+        display: inline-block;
+      }
+      
+  
+  .heading_blue{
+    color:#3E5C9A;
+    display:inline-block;
+  }
+  .heading_green{
+    color:#427900;
+    display:inline-block;
+  } 
+  p{
+    text-align: justify;
+  }
+  .p1{
+    margin:10px 100px 10px 100px;
+  }
+  
+  .box1{
+    width: 1330px;
+    height: 280px;
+    background:linear-gradient(#191970,#316DC3);
+    display:inline-block;
+    margin:5px 0px 5px 0px;
+    color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:100;
+  font-weight: bold;
+  }
+  /* .box1 p{font-size: 50px;} */
+  .box2{
+    width: 350px;
+    height: 200px;
+    display: inline-block;
+    margin: 60px 10px 1px 10px;
+    background-color: white;
+    box-shadow: 1px 1px 10px grey;
+  }
+  .dastarkhwan_logo{ 
+    position: absolute;
+    top: 850px;
+    left: 190px;
+  }
+  .dastarkhwan_value{ 
+    position: absolute;
+    top: 900px;
+    left: 150px;
+    font-size: 40px;
+  }
+  .dastarkhwan_head{ 
+      position: absolute;
+      top: 1000px;
+      left: 100px;
+}
+.family_logo{ 
+  position: absolute;
+  top: 850px;
+  left: 530px;
+}
+.family_value{ 
+  position: absolute;
+  top: 900px;
+  left: 510px;
+  font-size: 40px;
+}
+.family_head{ 
+    position: absolute;
+    top: 1000px;
+    left: 450px;
+}
+.medical_logo{ 
+  position: absolute;
+  top: 850px;
+  left: 840px;
+}
+.medical_value{ 
+  position: absolute;
+  top: 900px;
+  left: 810px;
+  font-size: 40px;
+}
+.medical_head{ 
+    position: absolute;
+    top: 1000px;
+    left: 800px;
+}
+.education_logo{ 
+  position: absolute;
+  top: 850px;
+  left: 1130px;
+}
+.education_value{ 
+  position: absolute;
+  top: 900px;
+  left: 1080px;
+  font-size: 40px;
+}
+.education_head{ 
+    position: absolute;
+    top: 1000px;
+    left: 1070px;
+}
+.sadqa{
+  cursor: pointer;
+  position: absolute;
+  top: 1250px;
+  left: 190px;
+}
+.welfare{
+  cursor: pointer;
+  position: absolute;
+  top: 1250px;
+  left: 600px;
+}
+.medical{
+  cursor: pointer;
+  position: absolute;
+  top: 1250px;
+  left: 1000px;
+}
+.dastarkhwan{
+  cursor: pointer;  
+  position: absolute;
+  top: 1510px;
+  left: 200px;
+}
+.roplant{
+  cursor: pointer;  
+  position: absolute;
+  top: 1510px;
+  left: 600px;
+}
+.education{
+  cursor: pointer;  
+  position: absolute;
+  top: 1510px;
+  left: 980px;
+}
+  .ME{
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+}
+.M{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: darkblue; 
+    margin: 50px 50px 0 80px;
+}
+.U{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: darkblue; 
+    margin: 20px 50px 0 50px;
+    font-size: 25px;
+}
+.mission{
+    position: absolute;
+    width: 64%;
+    height: 390px;
+    font-size:25px;
+}
+.events{
+    position: absolute;
+    top:1720px;
+    width: 27%;
+    height: 325px;
+    background:linear-gradient(white,#427900);
+    margin-left: 64%;
+}
+.cl1{
+  text-align: justify;
+}
+.box3{
+  width: 350px;
+  height: 70px;
+  display: inline-block;
+  margin: 60px 10px 1px 50px;
+  box-shadow: 1px 1px 10px grey;
+  text-align:center ;
+  color :#191970;
+}
+.hepatitis{
+position: absolute;
+top: 170px;
+left: 220px;
+}
+.housing{
+position: absolute;
+top: 170px;
+left: 640px;
+}
+.it{
+position: absolute;
+top: 300px;
+left: 220px;
+}
+.tharparkar{
+position: absolute;
+top: 300px;
+left: 640px;
+}
+.img1{
+  cursor: pointer;
+  position: absolute;
+  top: 2200px;
+  left: 75px;
+}
+.img2{
+  cursor: pointer;
+  position: absolute;
+  top: 2200px;
+  left: 320px;
+}
+.img3{
+  cursor: pointer;
+  position: absolute;
+  top: 2200px;
+  left: 570px;
+}
+.img4{
+  cursor: pointer;
+  position: absolute;
+  top: 2200px;
+  left: 820px;
+}
+.img5{
+  cursor: pointer;
+  position: absolute;
+  top: 2200px;
+  left: 1070px;
+}
+.pix{display:flex;
+    flex-direction:row;
+    justify-content:space-around
+  }
+.box4{
+  width: 1330px;
+  height: 280px;
+  background:linear-gradient(#363636,rgb(10, 10, 10));
+  display:inline-block;
+  margin:60px 0px 5px 0px;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:100;
+  font-weight: bold;
+}
+.footer{
+  position: absolute;
+  top: 2420px;
+  left: 100px;
+  color: white;
+  font-size: small;
+}
+.useful_link{
+  position: absolute;
+  top: 2420px;
+  left: 600px;
+  color: white;
+  font-size: large;
+  font-weight: normal;
+}
+.contact{
+  position: absolute;
+  top: 2420px;
+  left: 900px;
+  color: white;
+  font-size: large;
+  font-weight: normal;
+}
+.link{
+  cursor: pointer;
+  position: absolute;
+  top: 2450px;
+  left: 870px;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.box5{
+  width: 1330px;
+  height: 20px;
+  background-color: #191970;
+  display:inline-block;
+  margin:0px 0px 0px 0px;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:small;
+
+marquee{
+      width: 85%;
+      height: 27px;
+      margin-left: 95px;
+      background-color: #191970;
+      color: white};
+      
+     
+      
